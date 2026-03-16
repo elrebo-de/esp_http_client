@@ -1,9 +1,9 @@
-dependencies:
-  idf: '>=5.0'
-  sachin42/streamstring: ^1
-description: Arduino like HTTPClient Cpp Class component for ESP-IDF
+version: 1.0.1
 license: MIT
 url: "https://elrebo.de/index.php/2026/03/16/http_client/"
 repository: "https://github.com/elrebo-de/http_client.git"
 issues: "https://github.com/elrebo-de/http_client/issues"
-version: 1.0.1
+dependencies:
+  idf: '>=5.0'
+  sachin42/streamstring: ^1
+description: Arduino like HTTPClient Cpp Class component for ESP-IDF
