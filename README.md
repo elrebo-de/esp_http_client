@@ -4,6 +4,8 @@
 # HTTPClient
 
 This HTTPClient is a copy of the `HTTPClient` from `sachin42/idfcomponents`.
-The only change is that now it is allowed to use method `addHeader` to set header "Authorization".
+The first change is that now it is allowed to use method `addHeader` to set header "Authorization".
+
+The second change is an extension in HTTPClient.cpp to enable to use ESP_IDF version 6.0+.
 
 The original code can be found in GitHub: https://github.com/sachin42/idfcomponents.git in directory HTTPClient.
