@@ -93,7 +93,6 @@ esp_err_t HTTPClient::_http_event_handler(esp_http_client_event_t *evt)
     case HTTP_EVENT_REDIRECT:
         log_d("HTTP_EVENT_REDIRECT -> %s", self->_location.c_str());
         break;
-    }
 
 #if ESP_IDF_VERSION_MAJOR == 6
     case HTTP_EVENT_ON_HEADERS_COMPLETE:
@@ -103,8 +102,8 @@ esp_err_t HTTPClient::_http_event_handler(esp_http_client_event_t *evt)
     case HTTP_EVENT_ON_STATUS_CODE:
         log_d("HTTP_EVENT_ON_STATUS_CODE");
         break;
-    }
 #endif
+    }
 
     return ESP_OK;
 }
