@@ -32,12 +32,6 @@
 *.out
 *.app
 
-# Directories
-build/
-managed_components/
+dist/
 .idea/
-
-main/secrets.h
-dependencies.lock
-
 
